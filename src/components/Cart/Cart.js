@@ -17,7 +17,7 @@ const Cart = (props) => {
 
             </div>
             <div className="delete-btn">
-               <AiTwotoneDelete className='delete-icon' onClick={props.deleteItemFromCart}></AiTwotoneDelete>
+               <AiTwotoneDelete className='delete-icon' onClick={()=>props.deleteItemFromCart(id)}></AiTwotoneDelete>
             </div>
         </div>
         
