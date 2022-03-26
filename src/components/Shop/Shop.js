@@ -113,8 +113,6 @@ const Shop = () => {
                                 <button className="btn btn-danger" type="button" onClick={clearCart}>Choose Again</button>
                             </div>
                         </div>
-
-                        <button onClick={openModal}>Open Modal</button>
                         <Modal
                             isOpen={modalIsOpen}
                             onRequestClose={closeModal}

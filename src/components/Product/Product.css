@@ -1,0 +1,20 @@
+.card {
+    padding: 2px 10px;
+    height: 550px !important;
+ 
+}
+.card-title {
+    height: 50px !important;
+}
+.card img{
+    width: 200px;
+}
+.card h4{
+    font-size: 18px;
+}
+.add-to-cart-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
