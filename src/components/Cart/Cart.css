@@ -1,25 +1,27 @@
-.cart-modal{
+.cart{
     display: flex;
     flex-direction: row;
     align-items: center;
-   
+    border-bottom: 1px solid grey;
 }
-.cart-modal .img-section{
+.img-section{
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
    
 }
-.cart-modal .img-section img{
+.img-section img{
     width: 90px;
  
 }
-.cart-modal .cart-details{
+.cart-details{
     font-size: 13px;
     padding: 5px;
     display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+.delete-icon{
+   font-size: 25px;
 }
