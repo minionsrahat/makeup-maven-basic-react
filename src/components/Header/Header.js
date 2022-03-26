@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 // import logo from '../../images/Logo.svg'
 
 const Header = () => {
@@ -24,7 +25,7 @@ const Header = () => {
             </nav>
 
             <div className="container my-5">
-                <h3 className="text-center">
+                <h3 className="text-center title">
                 Welcome to Makeup Maven. <br /> Please Choose Your desired product at minimum cost.
                 </h3>
 

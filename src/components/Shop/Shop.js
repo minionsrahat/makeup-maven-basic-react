@@ -33,12 +33,20 @@ const Shop = () => {
 
     const handleAddToCart = (product) => {
         const exist = cart.find((oldProduct) => oldProduct.id === product.id)
-        if (!exist) {
+        if (!exist && cart.length<4) {
             const newCart = [...cart, product];
             setCart(newCart)
         }
         else {
-            alert("Your Selected Product Already  In the cart")
+            if(exist)
+            {
+                alert("Your Selected Product Already  In the Cart")
+            }
+       
+            else
+            {
+                alert("Your can not add more than 4 Products in the Cart")
+            }
         }
     }
 
