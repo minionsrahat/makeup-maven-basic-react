@@ -1,9 +1,27 @@
+.row{
+    margin: 0!important;
+}
+.product-container{
+    
+    padding: 20px;
+    background-color: #e6e6fa;
+    border-radius: 5px;
+
+}
+
+.cart-container{
+    padding: 10px;
+      background-color: #e6e6fa;
+      border-radius: 5px;
+   
+}
 .cart-modal{
     display: flex;
     flex-direction: row;
     align-items: center;
-   
+    
 }
+
 .cart-modal .img-section{
     padding: 15px;
     display: flex;
@@ -22,4 +40,9 @@
     flex-direction: column;
     word-wrap: break-word;
     align-items: flex-start;
+}
+
+.product-size-title{
+    font-size: 30px;
+   
 }
